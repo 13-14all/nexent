@@ -199,7 +199,7 @@ services:
     networks:
       - nexent
     ports:
-      - "3000:3000"
+      - "555:555"
     environment:
       - HTTP_BACKEND=http://nexent-config:5010
       - WS_BACKEND=ws://nexent-runtime:5014
